@@ -116,7 +116,8 @@ There's a full page refresh on each page navigation!
 
 - In Next.js, you can create API endpoints using Route Handlers.
     
-    -``` https://nextjs.org/docs/app/api-reference/file-conventions/route
+``` 
+https://nextjs.org/docs/app/api-reference/file-conventions/route
 
 2. Database queries
 - When you're creating a full-stack application, you'll also need to write logic to interact with your database. For relational databases like Postgres, you can do this with SQL or with an ORM.
@@ -211,10 +212,13 @@ There's a full page refresh on each page navigation!
 
 - So, authentication checks who you are, and authorization determines what you can do or access in the application.
 
-    - ``` https://nextjs.org/learn/dashboard-app/adding-authentication#authentication-vs-authorization
+```
+https://nextjs.org/learn/dashboard-app/adding-authentication#authentication-vs-authorization
 
 - providers 
--    - ``` https://authjs.dev/getting-started/authentication/oauth
+
+``` 
+https://authjs.dev/getting-started/authentication/oauth
 
 
 # MetaData 
