@@ -3,7 +3,6 @@
 
 - By framework, we mean Next.js handles the tooling and configuration needed for React, and provides additional structure, features, and optimizations for your application.
 
-=========================================================================================================================================================================
 
 # Why NEXT.JS
 - Next.js simplifies the process pf building production-ready web apllications
@@ -15,7 +14,6 @@
     - Optimization
     - Dev and prod build system
 
-=========================================================================================================================================================================
 
 # Building blocks of a web application
 - There are a few things you need to consider when building modern applications. Such as:
@@ -29,7 +27,6 @@
     -S calability - how your application adapts as your team, data, and traffic grow.
     -D eveloper Experience - your team's experience building and maintaining your application.
 
-=========================================================================================================================================================================
 
 # Imperative vs. declarative programming
 -  imperative programming -> You're writing the steps for how the user interface should be updated. 
@@ -40,7 +37,6 @@
 
 - "React is a popular declarative UI library that you can use build user interfaces."
 
-=========================================================================================================================================================================
 
 # Creating your first page
 - Next.js uses file-system routing. This means that instead of using code to define the routes of your application, you can use folders and files.
@@ -52,19 +48,16 @@
 
 - A new file called layout.js was automatically created inside the app folder. This is the main layout of your application. You can use it to add UI elements that are shared across all pages (e.g. navigation, footer, etc).
 
-=========================================================================================================================================================================
 
 # Why this error shows?
 - ERROR => You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
 
 - Reason => This is because Next.js uses React Server Components, a new feature that allows React to render on the server. Server Components don't support useState, so you'll need to use a Client Component instead.
 
-=========================================================================================================================================================================
 
 # Server and Client Components
     - https://nextjs.org/learn/react-foundations/server-and-client-components
 
-=========================================================================================================================================================================
 
 # Nested routing
 - Next.js uses file-system routing where folders are used to create nested routes. 
@@ -78,14 +71,12 @@
     - " /app/dashboard/page.tsx " is associated with the " /dashboard " path. 
 
 
-=========================================================================================================================================================================
 
 # Colocation
     - https://nextjs.org/docs/app/getting-started/project-structure#colocation
 
 - Good to know: While you can colocate your project files in app you don't have to. If you prefer, you can keep them outside the app directory.
 
-=========================================================================================================================================================================
 
 # Why optimize navigation?
 - To link between pages, you'd traditionally use the <a> HTML element. At the moment, the sidebar links use <a> elements, but notice what happens when you navigate between the home, invoices, and customers pages on your browser.
@@ -108,7 +99,6 @@ There's a full page refresh on each page navigation!
 # Pattern: Showing active links
 - A common UI pattern is to show an active link to indicate to the user what page they are currently on. To do this, you need to get the user's current path from the URL. Next.js provides a hook called usePathname() that you can use to check the path and implement this pattern.
 
-=========================================================================================================================================================================
 
 # Setting up Database
     - https://nextjs.org/learn/dashboard-app/setting-up-your-database
@@ -116,7 +106,6 @@ There's a full page refresh on each page navigation!
 # Seed your database
 - Seeding is useful when you want to have some initial data to work with as you build your application.
 
-=========================================================================================================================================================================
 
 # Choosing how to fetch data
 
@@ -143,7 +132,6 @@ There's a full page refresh on each page navigation!
     - SQL is versatile, allowing you to fetch and manipulate specific data.
     - The postgres.js library provides protection against SQL injections.
 
-=========================================================================================================================================================================
 
 # Important points
 - The data requests are unintentionally blocking each other, creating a request waterfall.
@@ -157,22 +145,19 @@ There's a full page refresh on each page navigation!
 
 - In JavaScript, you can use the Promise.all() or Promise.allSettled() functions to initiate all promises at the same time. 
 
-=========================================================================================================================================================================
 
 # Static and Dynamic Rendering
     - https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering
 
-=========================================================================================================================================================================
 
 # What is streaming?
-- https://nextjs.org/learn/dashboard-app/streaming
+    - https://nextjs.org/learn/dashboard-app/streaming
 
 # Partial Prerendering (PPR)
-- https://nextjs.org/learn/dashboard-app/partial-prerendering
+    - https://nextjs.org/learn/dashboard-app/partial-prerendering
 
-=========================================================================================================================================================================
 
-- https://nextjs.org/learn/dashboard-app/adding-search-and-pagination#adding-the-search-functionality
+    - https://nextjs.org/learn/dashboard-app/adding-search-and-pagination#adding-the-search-functionality
 
 # The search functionality
 - These are the Next.js client hooks that you'll use to implement the search functionality:
@@ -203,12 +188,10 @@ There's a full page refresh on each page navigation!
     2. Wait: If a new event occurs before the timer expires, the timer is reset.
     3. Execution: If the timer reaches the end of its countdown, the debounced function is executed.
 
-=========================================================================================================================================================================
 
 # Mutating data
-- https://nextjs.org/learn/dashboard-app/mutating-data
+    - https://nextjs.org/learn/dashboard-app/mutating-data
 
-=========================================================================================================================================================================
 
 # What is accessibility?
 - Accessibility refers to designing and implementing web applications that everyone can use, including those with disabilities. It's a vast topic that covers many areas, such as keyboard navigation, semantic HTML, images, colors, videos, etc.
@@ -218,7 +201,6 @@ There's a full page refresh on each page navigation!
 2. Labelling: Including <label> and the htmlFor attribute ensures that each form field has a descriptive text label. This improves AT support by providing context and also enhances usability by allowing users to click on the label to focus on the corresponding input field.
 3. Focus Outline: The fields are properly styled to show an outline when they are in focus. This is critical for accessibility as it visually indicates the active element on the page, helping both keyboard and screen reader users to understand where they are on the form. You can verify this by pressing tab.
 
-=========================================================================================================================================================================
 
 # Authentication vs. Authorization
 
@@ -228,25 +210,15 @@ There's a full page refresh on each page navigation!
 
 - So, authentication checks who you are, and authorization determines what you can do or access in the application.
 
-- Link -> https://nextjs.org/learn/dashboard-app/adding-authentication#authentication-vs-authorization
+    - https://nextjs.org/learn/dashboard-app/adding-authentication#authentication-vs-authorization
 
 - providers -> https://authjs.dev/getting-started/authentication/oauth
 
-=========================================================================================================================================================================
 
 # MetaData 
 
-- https://nextjs.org/learn/dashboard-app/adding-metadata
+    - https://nextjs.org/learn/dashboard-app/adding-metadata
 
 
 
-=========================================================================================================================================================================
 
-
-=========================================================================================================================================================================
-
-
-=========================================================================================================================================================================
-
-
-=========================================================================================================================================================================
