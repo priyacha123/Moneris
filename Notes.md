@@ -118,6 +118,7 @@ There's a full page refresh on each page navigation!
     
 ``` 
 https://nextjs.org/docs/app/api-reference/file-conventions/route
+```
 
 2. Database queries
 - When you're creating a full-stack application, you'll also need to write logic to interact with your database. For relational databases like Postgres, you can do this with SQL or with an ORM.
@@ -214,11 +215,13 @@ https://nextjs.org/docs/app/api-reference/file-conventions/route
 
 ```
 https://nextjs.org/learn/dashboard-app/adding-authentication#authentication-vs-authorization
+```
 
 - providers 
 
 ``` 
 https://authjs.dev/getting-started/authentication/oauth
+```
 
 
 # MetaData 
@@ -230,4 +233,5 @@ https://authjs.dev/getting-started/authentication/oauth
 
 ```
 Good to know: You can also create dynamic OG images using the ImageResponse constructor.
+```
 
