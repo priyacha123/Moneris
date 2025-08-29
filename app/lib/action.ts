@@ -109,7 +109,7 @@ export async function updateInvoice( id: string, prevState: State, formData: For
   redirect('/dashboard/invoices');
 }
 
-export async function deleteInvoice(prevState: State, id: string) {
+export async function deleteInvoice( id: string) {
   await sql`DELETE FROM invoices WHERE id = ${id}`;
   revalidatePath('/dashboard/invoices');
 }

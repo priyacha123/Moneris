@@ -20,18 +20,18 @@
     - User Interface - how users will consume and interact with your application.
     - Routing - how users navigate between different parts of your application.
     - Data Fetching - where your data lives and how to get it.
-    -R endering - when and where you render static or dynamic content.
-    -I ntegrations - what third-party services you use (for CMS, auth, payments, etc.) and how you connect to them.
-    -I nfrastructure - where you deploy, store, and run your application code (serverless, CDN, edge, etc.).
-    -P erformance - how to optimize your application for end-users.
-    -S calability - how your application adapts as your team, data, and traffic grow.
-    -D eveloper Experience - your team's experience building and maintaining your application.
+    - Rendering - when and where you render static or dynamic content.
+    - Integrations - what third-party services you use (for CMS, auth, payments, etc.) and how you connect to them.
+    - Infrastructure - where you deploy, store, and run your application code (serverless, CDN, edge, etc.).
+    - Performance - how to optimize your application for end-users.
+    - Scalability - how your application adapts as your team, data, and traffic grow.
+    - Developer Experience - your team's experience building and maintaining your application.
 
 
 # Imperative vs. declarative programming
--  imperative programming -> You're writing the steps for how the user interface should be updated. 
+-  Imperative programming -> You're writing the steps for how the user interface should be updated. 
 
-- declarative programming -> But when it comes to building user interfaces, a declarative approach is often preferred because it can speed up the development process -> Instead of having to write DOM methods, it would be helpful if developers were able to declare what they want to show (in this case, an h1 tag with some text).
+- Declarative programming -> But when it comes to building user interfaces, a declarative approach is often preferred because it can speed up the development process -> Instead of having to write DOM methods, it would be helpful if developers were able to declare what they want to show (in this case, an h1 tag with some text).
 
 - In other words, imperative programming is like giving a chef step-by-step instructions on how to make a pizza. Declarative programming is like ordering a pizza without being concerned about the steps it takes to make the pizza. 🍕
 
@@ -56,7 +56,7 @@
 
 
 # Server and Client Components
-    - https://nextjs.org/learn/react-foundations/server-and-client-components
+    ``` https://nextjs.org/learn/react-foundations/server-and-client-components ```
 
 
 # Nested routing
@@ -73,10 +73,11 @@
 
 
 # Colocation
-    - https://nextjs.org/docs/app/getting-started/project-structure#colocation
+    ``` https://nextjs.org/docs/app/getting-started/project-structure#colocation ```
 
-- Good to know: While you can colocate your project files in app you don't have to. If you prefer, you can keep them outside the app directory.
-
+```
+ Good to know: While you can colocate your project files in app you don't have to. If you prefer, you can keep them outside the app directory.
+```
 
 # Why optimize navigation?
 - To link between pages, you'd traditionally use the <a> HTML element. At the moment, the sidebar links use <a> elements, but notice what happens when you navigate between the home, invoices, and customers pages on your browser.
@@ -101,7 +102,7 @@ There's a full page refresh on each page navigation!
 
 
 # Setting up Database
-    - https://nextjs.org/learn/dashboard-app/setting-up-your-database
+    ``` https://nextjs.org/learn/dashboard-app/setting-up-your-database ```
 
 # Seed your database
 - Seeding is useful when you want to have some initial data to work with as you build your application.
@@ -150,17 +151,17 @@ https://nextjs.org/docs/app/api-reference/file-conventions/route
 
 
 # Static and Dynamic Rendering
-    - https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering
+    ```https://nextjs.org/learn/dashboard-app/static-and-dynamic-rendering```
 
 
 # What is streaming?
-    - https://nextjs.org/learn/dashboard-app/streaming
+    ``` https://nextjs.org/learn/dashboard-app/streaming ```
 
 # Partial Prerendering (PPR)
-    - https://nextjs.org/learn/dashboard-app/partial-prerendering
+    ``` https://nextjs.org/learn/dashboard-app/partial-prerendering ```
 
 
-    - https://nextjs.org/learn/dashboard-app/adding-search-and-pagination#adding-the-search-functionality
+    ``` https://nextjs.org/learn/dashboard-app/adding-search-and-pagination#adding-the-search-functionality ```
 
 # The search functionality
 - These are the Next.js client hooks that you'll use to implement the search functionality:
@@ -193,7 +194,7 @@ https://nextjs.org/docs/app/api-reference/file-conventions/route
 
 
 # Mutating data
-    - https://nextjs.org/learn/dashboard-app/mutating-data
+    ``` https://nextjs.org/learn/dashboard-app/mutating-data ```
 
 
 # What is accessibility?
@@ -226,7 +227,7 @@ https://authjs.dev/getting-started/authentication/oauth
 
 # MetaData 
 
-    - https://nextjs.org/learn/dashboard-app/adding-metadata
+    ``` https://nextjs.org/learn/dashboard-app/adding-metadata ```
 
 # Metadata
 - In web development, metadata provides additional details about a webpage. Metadata is not visible to the users visiting the page. Instead, it works behind the scenes, embedded within the page's HTML, usually within the <head> element. 
